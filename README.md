@@ -14,6 +14,16 @@ Conference (IMC) 2020</a>, October 2020, Pittsburgh, USA.</p>
 - `CableMatching/` - Data and source code for generating country level hops, identifying routes hitting SCN and mapping traceroutes to bundles of submarine cables. 
 - `Results/` - Statistics and graphs from our measurement results. 
 
+<h3>Prerequisites</h3>
+Create a file in the root directory called `config.json` with the following information (filled out appropriately):
+```json
+{
+    "mongo_str": "", 
+    "ripe_api": "", 
+    "google_api": ""
+}
+```
+
 <h3>Pipeline Overview</h3>
 
 - Crawl websites; 
