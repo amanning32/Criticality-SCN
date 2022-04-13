@@ -1,0 +1,512 @@
+{
+    "australiacentral": {
+        "city": "Canberra",
+        "code": "AU",
+        "latitude": "-35.2809", 
+        "longitude": "149.1300"
+    },
+    "australiacentral2": {
+        "city": "Canberra",
+        "code": "AU",
+        "latitude": "-35.2809", 
+        "longitude": "149.1300"
+    },
+    "australiaeast": {
+        "city": "Sydney",
+        "code": "AU",
+        "latitude": "-33.8687", 
+        "longitude": "151.2099"
+    },
+    "australiasoutheast": {
+        "city": "Melbourne",
+        "code": "AU",
+        "latitude": "-37.8114", 
+        "longitude": "144.9638"
+    },
+    "austriaeast": {
+        "city": "Vienna",
+        "code": "AT",
+        "latitude": "48.2096", 
+        "longitude": "16.3780"
+    },
+    "belgiumcentral": {
+        "city": "Brussels",
+        "code": "BE",
+        "latitude": "50.8486", 
+        "longitude": "4.3558"
+    },
+    "brazilne": {
+        "city": "",
+        "code": "BR",
+        "latitude": "-8.2933", 
+        "longitude": "-55.8291"
+    },
+    "brazilse": {
+        "city": "Rio de Janeiro",
+        "code": "BR",
+        "latitude": "-22.9039", 
+        "longitude": "-43.1761"
+    },
+    "brazilsouth": {
+        "city": "Sao Paulo",
+        "code": "BR",
+        "latitude": "-23.5505", 
+        "longitude": "-46.6333"
+    },
+    "brazilsoutheast": {
+        "city": "Rio de Janeiro",
+        "code": "BR",
+        "latitude": "-22.9039", 
+        "longitude": "-43.1761"
+    },
+    "canadacentral": {
+        "city": "Toronto",
+        "code": "CA",
+        "latitude": "43.6532", 
+        "longitude": "-79.3832"
+    },
+    "canadaeast": {
+        "city": "Quebec City",
+        "code": "CA",
+        "latitude": "46.8139", 
+        "longitude": "-71.2080"
+    },
+    "centralfrance": {
+        "city": "Paris",
+        "code": "FR",
+        "latitude": "48.8566", 
+        "longitude": "2.3522"
+    },
+    "centralindia": {
+        "city": "Pune",
+        "code": "IN",
+        "latitude": "18.5204", 
+        "longitude": "73.8567"
+    },
+    "centralus": {
+        "city": "Des Moines",
+        "code": "US",
+        "latitude": "41.8780", 
+        "longitude": "-93.0977"
+    },
+    "centraluseuap": {
+        "city": "Des Moines",
+        "code": "US",
+        "latitude": "41.8780", 
+        "longitude": "-93.0977"
+    },
+    "chilec": {
+        "city": "Santiago",
+        "code": "CL",
+        "latitude": "-33.4475", 
+        "longitude": "-70.6662"
+    },
+    "eastasia": {
+        "city": "Hong Kong",
+        "code": "HK",
+        "latitude": "22.3193", 
+        "longitude": "114.1694"
+    },
+    "easteurope": {
+        "city": "",
+        "code": "",
+        "latitude": "", 
+        "longitude": ""
+    },
+    "eastus": {
+        "city": "Richmond",
+        "code": "US",
+        "latitude": "37.5412", 
+        "longitude": "-77.4366"
+    },
+    "eastus2": {
+        "city": "Richmond",
+        "code": "US",
+        "latitude": "37.5412", 
+        "longitude": "-77.4366"
+    },
+    "eastus2euap": {
+        "city": "Richmond",
+        "code": "US",
+        "latitude": "37.5412", 
+        "longitude": "-77.4366"
+    },
+    "eastus2stage": {
+        "city": "Richmond",
+        "code": "US",
+        "latitude": "37.5412", 
+        "longitude": "-77.4366"
+    },
+    "eastusslv": {
+        "city": "Richmond",
+        "code": "US",
+        "latitude": "37.5412", 
+        "longitude": "-77.4366"
+    },
+    "eastusstg": {
+        "city": "Richmond",
+        "code": "US",
+        "latitude": "37.5412", 
+        "longitude": "-77.4366"
+    },
+    "francecentral": {
+        "city": "Paris",
+        "code": "FR",
+        "latitude": "48.8566", 
+        "longitude": "2.3522"
+    },
+    "francesouth": {
+        "city": "Marseille",
+        "code": "FR",
+        "latitude": "43.2965", 
+        "longitude": "5.3698"
+    },
+    "germanyn": {
+        "city": "Berlin",
+        "code": "DE",
+        "latitude": "52.5200", 
+        "longitude": "13.4050"
+    },
+    "germanynorth": {
+        "city": "Berlin",
+        "code": "DE",
+        "latitude": "52.5200", 
+        "longitude": "13.4050"
+    },
+    "germanywc": {
+        "city": "Frankfurt",
+        "code": "DE",
+        "latitude": "50.1109", 
+        "longitude": "8.6821"
+    },
+    "germanywestcentral": {
+        "city": "Frankfurt",
+        "code": "DE",
+        "latitude": "50.1109", 
+        "longitude": "8.6821"
+    },
+    "indiasouthcentral": {
+        "city": "Hyderabad",
+        "code": "IN",
+        "latitude": "17.3887", 
+        "longitude": "78.4863"
+    },
+    "israelcentral": {
+        "city": "Tel Aviv",
+        "code": "IL",
+        "latitude": "32.0865", 
+        "longitude": "34.7813"
+    },
+    "isrealcentral": {
+        "city": "Tel Aviv",
+        "code": "IL",
+        "latitude": "32.0865", 
+        "longitude": "34.7813"
+    },
+    "italynorth": {
+        "city": "Milan",
+        "code": "IT",
+        "latitude": "45.4711", 
+        "longitude": "9.1879"
+    },
+    "japaneast": {
+        "city": "Tokyo",
+        "code": "JP",
+        "latitude": "35.6804", 
+        "longitude": "139.7690"
+    },
+    "japanwest": {
+        "city": "Osaka",
+        "code": "JP",
+        "latitude": "34.6937", 
+        "longitude": "135.5023"
+    },
+    "jioindiacentral": {
+        "city": "Nagpur",
+        "code": "IN",
+        "latitude": "21.1466", 
+        "longitude": "79.0889"
+    },
+    "jioindiawest": {
+        "city": "Jamnagar",
+        "code": "IN",
+        "latitude": "22.4707", 
+        "longitude": "70.0577"
+    },
+    "koreacentral": {
+        "city": "Seoul",
+        "code": "KR",
+        "latitude": "37.5665", 
+        "longitude": "126.9780"
+    },
+    "koreasouth": {
+        "city": "Busan",
+        "code": "KR",
+        "latitude": "35.1796", 
+        "longitude": "129.0756"
+    },
+    "malaysiawest": {
+        "city": "Kuala Lumpur",
+        "code": "MY",
+        "latitude": "3.1392", 
+        "longitude": "101.6853"
+    },
+    "mexicocentral": {
+        "city": "Queretaro",
+        "code": "MX",
+        "latitude": "20.5906", 
+        "longitude": "-100.3893"
+    },
+    "newzealandnorth": {
+        "city": "Auckland",
+        "code": "NZ",
+        "latitude": "-36.8482", 
+        "longitude": "174.7645"
+    },
+    "northcentralus": {
+        "city": "Chicago",
+        "code": "US",
+        "latitude": "41.8776", 
+        "longitude": "-87.6262"
+    },
+    "northcentralusstage": {
+        "city": "Chicago",
+        "code": "US",
+        "latitude": "41.8776", 
+        "longitude": "-87.6262"
+    },
+    "northeurope": {
+        "city": "Dublin",
+        "code": "IE",
+        "latitude": "53.3513", 
+        "longitude": "-6.2677"
+    },
+    "northeurope2": {
+        "city": "Dublin",
+        "code": "IE",
+        "latitude": "53.3513", 
+        "longitude": "-6.2677"
+    },
+    "norwaye": {
+        "city": "Oslo",
+        "code": "NO",
+        "latitude": "59.9139", 
+        "longitude": "10.7522"
+    },
+    "norwayeast": {
+        "city": "Oslo",
+        "code": "NO",
+        "latitude": "59.9139", 
+        "longitude": "10.7522"
+    },
+    "norwayw": {
+        "city": "Stavanger",
+        "code": "NO",
+        "latitude": "58.9700", 
+        "longitude": "5.7331"
+    },
+    "norwaywest": {
+        "city": "Stavanger",
+        "code": "NO",
+        "latitude": "58.9700", 
+        "longitude": "5.7331"
+    },
+    "polandcentral": {
+        "city": "Warsaw",
+        "code": "PL",
+        "latitude": "52.2312", 
+        "longitude": "21.0138"
+    },
+    "qatarcentral": {
+        "city": "Doha",
+        "code": "QA",
+        "latitude": "25.2890", 
+        "longitude": "51.5305"
+    },
+    "southafricanorth": {
+        "city": "Johannesburg",
+        "code": "ZA",
+        "latitude": "-26.2041", 
+        "longitude": "28.0473"
+    },
+    "southafricawest": {
+        "city": "Cape Town",
+        "code": "ZA",
+        "latitude": "-33.9249", 
+        "longitude": "18.4241"
+    },
+    "southcentralus": {
+        "city": "San Antonio",
+        "code": "US",
+        "latitude": "29.43316", 
+        "longitude": "-98.4883"
+    },
+    "southcentralusstg": {
+        "city": "San Antonio",
+        "code": "US",
+        "latitude": "29.43316", 
+        "longitude": "-98.4883"
+    },
+    "southeastasia": {
+        "city": "Singapore",
+        "code": "SG",
+        "latitude": "1.3521", 
+        "longitude": "103.8198"
+    },
+    "southfrance": {
+        "city": "Marseille",
+        "code": "FR",
+        "latitude": "43.2965", 
+        "longitude": "5.3698"
+    },
+    "southindia": {
+        "city": "Chennai",
+        "code": "IN",
+        "latitude": "13.0827", 
+        "longitude": "80.2707"
+    },
+    "spaincentral": {
+        "city": "Madrid",
+        "code": "ES",
+        "latitude": "40.4191", 
+        "longitude": "-3.7029"
+    },
+    "swedencentral": {
+        "city": "Gavle",
+        "code": "SE",
+        "latitude": "60.6756", 
+        "longitude": "17.1412"
+    },
+    "swedensouth": {
+        "city": "Malmo",
+        "code": "SE",
+        "latitude": "55.6055", 
+        "longitude": "13.0045"
+    },
+    "switzerlandn": {
+        "city": "Zurich",
+        "code": "CH",
+        "latitude": "47.3769", 
+        "longitude": "8.5417"
+    },
+    "switzerlandnorth": {
+        "city": "Zurich",
+        "code": "CH",
+        "latitude": "47.3769", 
+        "longitude": "8.5417"
+    },
+    "switzerlandw": {
+        "city": "Geneva",
+        "code": "CH",
+        "latitude": "46.2044", 
+        "longitude": "6.1432"
+    },
+    "switzerlandwest": {
+        "city": "Geneva",
+        "code": "CH",
+        "latitude": "46.2044", 
+        "longitude": "6.1432"
+    },
+    "taiwannorth": {
+        "city": "Taipei",
+        "code": "TW",
+        "latitude": "25.0369", 
+        "longitude": "121.5647"
+    },
+    "taiwannorthwest": {
+        "city": "",
+        "code": "TW",
+        "latitude": "23.5099", 
+        "longitude": "121.2244"
+    },
+    "uaecentral": {
+        "city": "Abu Dhabi",
+        "code": "AE",
+        "latitude": "24.4539", 
+        "longitude": "54.3773"
+    },
+    "uaenorth": {
+        "city": "Dubai",
+        "code": "AE",
+        "latitude": "25.2048", 
+        "longitude": "55.2708"
+    },
+    "uknorth": {
+        "city": "",
+        "code": "GB",
+        "latitude": "55.3781", 
+        "longitude": "-3.4360"
+    },
+    "uksouth": {
+        "city": "London",
+        "code": "GB",
+        "latitude": "51.5074", 
+        "longitude": "-0.1278"
+    },
+    "uksouth2": {
+        "city": "London",
+        "code": "GB",
+        "latitude": "51.5074", 
+        "longitude": "-0.1278"
+    },
+    "ukwest": {
+        "city": "Cardiff",
+        "code": "GB",
+        "latitude": "51.4816", 
+        "longitude": "-3.1791"
+    },
+    "usstagec": {
+        "city": "Des Moines",
+        "code": "US",
+        "latitude": "41.8780", 
+        "longitude": "-93.0977"
+    },
+    "usstagee": {
+        "city": "Richmond",
+        "code": "US",
+        "latitude": "37.5412", 
+        "longitude": "-77.4366"
+    },
+    "westcentralus": {
+        "city": "Cheyenne",
+        "code": "US",
+        "latitude": "41.1416", 
+        "longitude": "-104.8208"
+    },
+    "westeurope": {
+        "city": "Amsterdam",
+        "code": "NL",
+        "latitude": "52.3681", 
+        "longitude": "4.8995"
+    },
+    "westindia": {
+        "city": "Mumbai",
+        "code": "IN",
+        "latitude": "19.0760", 
+        "longitude": "72.8777"
+    },
+    "westus": {
+        "city": "San Francisco",
+        "code": "US",
+        "latitude": "37.7738", 
+        "longitude": "-122.4144"
+    },
+    "westus2": {
+        "city": "Moses Lake",
+        "code": "US",
+        "latitude": "47.1320", 
+        "longitude": "-119.2756"
+    },
+    "westus3": {
+        "city": "Phoenix",
+        "code": "US",
+        "latitude": "33.4494", 
+        "longitude": "-112.0619"
+    },
+    "N/A": {
+        "city": "",
+        "code": "",
+        "latitude": "", 
+        "longitude": ""
+    }
+}

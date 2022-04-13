@@ -1,0 +1,200 @@
+{
+    "GLOBAL":  {
+        "city": "",
+        "code": "",
+        "latitude": "", 
+        "longitude": ""
+    },
+    "af-south-1":  {
+        "city": "Cape Town",
+        "code": "ZA",
+        "latitude": "-33.9249", 
+        "longitude": "18.4241"
+    },
+    "ap-east-1": {
+        "city": "Hong Kong",
+        "code": "HK",
+        "latitude": "22.3193", 
+        "longitude": "114.1694"
+    },
+    "ap-northeast-1": {
+        "city": "Tokyo",
+        "code": "JP",
+        "latitude": "35.6762", 
+        "longitude": "139.6503"
+    },
+    "ap-northeast-2": {
+        "city": "Seoul",
+        "code": "KR",
+        "latitude": "37.5665", 
+        "longitude": "126.9780"
+    },
+    "ap-northeast-3": {
+        "city": "Osaka",
+        "code": "JP",
+        "latitude": "34.6937", 
+        "longitude": "135.5023"
+    },
+    "ap-south-1": {
+        "city": "Mumbai",
+        "code": "IN",
+        "latitude": "19.076", 
+        "longitude": "72.8777"
+    },
+    "ap-south-2":  {
+        "city": "Hyderabad",
+        "code": "IN",
+        "latitude": "17.3887", 
+        "longitude": "78.4863"
+    },
+    "ap-southeast-1": {
+        "city": "Singapore",
+        "code": "SG",
+        "latitude": "1.3521", 
+        "longitude": "103.8198"
+    },
+    "ap-southeast-2": {
+        "city": "Syndey",
+        "code": "AU",
+        "latitude": "-33.8688", 
+        "longitude": "151.2093"
+    },
+    "ap-southeast-3":  {
+        "city": "Jakarta",
+        "code": "ID",
+        "latitude": "-6.2097", 
+        "longitude": "106.8488"
+    },
+    "ap-southeast-4":  {
+        "city": "Auckland",
+        "code": "NZ",
+        "latitude": "-36.8482", 
+        "longitude": "174.7645"
+    },
+    "ca-central-1": {
+        "city": "Montreal",
+        "code": "CA",
+        "latitude": "45.5016", 
+        "longitude": "-73.5644"
+    },
+    "cn-north-1": {
+        "city": "Beijing",
+        "code": "CN", 
+        "latitude": "39.9042", 
+        "longitude": "116.4074"
+    },
+    "cn-northwest-1": {
+        "city": "Ningxia",
+        "code": "CN",
+        "latitude": "37.1987", 
+        "longitude": "106.1581"
+    },
+    "eu-central-1": {
+        "city": "Frankfurt",
+        "code": "DE",
+        "latitude": "50.1109", 
+        "longitude": "8.6821"
+    },
+    "eu-central-2":  {
+        "city": "Zurich",
+        "code": "CH",
+        "latitude": "47.3769", 
+        "longitude": "8.5417"
+    },
+    "eu-north-1": {
+        "city": "Stockholm",
+        "code": "SE",
+        "latitude": "59.3293", 
+        "longitude": "18.0686"
+    },
+    "eu-south-1":  {
+        "city": "Milan",
+        "code": "IT",
+        "latitude": "45.4711", 
+        "longitude": "9.1879"
+    },
+    "eu-south-2":  {
+        "city": "",
+        "code": "ES",
+        "latitude": "39.4556", 
+        "longitude": "-3.3853"
+    },
+    "eu-west-1": {
+        "city": "Dublin",
+        "code": "IE",
+        "latitude": "53.3518", 
+        "longitude": "-6.2493"
+    },
+    "eu-west-2": {
+        "city": "London",
+        "code": "GB",
+        "latitude": "51.5074", 
+        "longitude": "-0.1278"
+    },
+    "eu-west-3": {
+        "city": "Paris",
+        "code": "FR",
+        "latitude": "48.8566", 
+        "longitude": "2.3522"
+    },
+    "il-central-1":  {
+        "city": "Tel Aviv",
+        "code": "IL",
+        "latitude": "32.0865", 
+        "longitude": "34.7813"
+    },
+    "me-central-1":  {
+        "city": "",
+        "code": "AE",
+        "latitude": "24.0368", 
+        "longitude": "54.3625"
+    },
+    "me-south-1": {
+        "city": "Manama",
+        "code": "BH",
+        "latitude": "26.0667", 
+        "longitude": "50.5577"
+    },
+    "sa-east-1": {
+        "city": "Sao Paulo",
+        "code": "BR",
+        "latitude": "-23.5505", 
+        "longitude": "-46.6333"
+    },
+    "us-east-1": {
+        "city": "Washington",
+        "code": "US",
+        "latitude": "38.9031", 
+        "longitude": "-77.0368"
+    },
+    "us-east-2": {
+        "city": "Columbus",
+        "code": "US",
+        "latitude": "39.9674", 
+        "longitude": "-82.9904"
+    },
+    "us-gov-east-1":  {
+        "city": "Columbus",
+        "code": "US",
+        "latitude": "39.9674", 
+        "longitude": "-82.9904"
+    },
+    "us-gov-west-1":  {
+        "city": "Pendleton",
+        "code": "US",
+        "latitude": "45.6724", 
+        "longitude": "-118.7893"
+    },
+    "us-west-1": {
+        "city": "Pendleton",
+        "code": "US",
+        "latitude": "45.6724", 
+        "longitude": "-118.7893"
+    },
+    "us-west-2": {
+        "city": "San Francisco",
+        "code": "US",
+        "latitude": "37.7738", 
+        "longitude": "-122.4144"
+    }
+}
