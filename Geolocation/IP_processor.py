@@ -3,7 +3,7 @@ import argparse
 
 from IP_geolocator import Geolocator
 from pymongo import MongoClient, InsertOne, UpdateOne
-from bson.objectid import Objectid
+from bson.objectid import ObjectId
 
 mongo_config = None
 with open("../config.json", 'r') as fp:
@@ -78,25 +78,18 @@ class Processor:
 
     # Load_db ip lists to be geolocated from MongoDB
     def Load_db(self, db):
-        results = {}
         total = 0
 
         ips_collection = mongo_client[db]["ips"]
         data = ips_collection.find({"status": "new"})
 
         for result in data:
-            print(result["country_code"])
+            print(result["country"])
 
             self.current_ids.append(result["_id"])
-            results.update(result["match_ips"])
-            total += len(result["match_ips"])
 
-            results.update(result["access_ip"])
-            total += len(result["access_ip"])
-
-        for result in results:
-            ip = result.replace('_', '.')
-            self.results[ip] = results[result]
+            self.results[result["ip"]] = {}
+            total += len(result["ip"])
 
         print("Database Loaded: # of unique IPs %d; # of all IPs: %s" % (len(self.results), total))
 

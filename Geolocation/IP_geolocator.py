@@ -33,7 +33,7 @@ class Geolocator:
     # input: ip_list: a list of ip addresses to geolocate
     #        measurements: list of strings specifying types of measurements to performed
     def Geolocate(self, ip_list, measurements):
-        failed = ip_list
+        # failed = ip_list
         for m in measurements:
             if m == "RIPE":
                 # RIPE active probing geolocation
@@ -356,7 +356,7 @@ class Geolocator:
 
         azure_result = {}
         azure_loc = {}
-        with open("erv_data/azure_region_locations.json", 'r') as fp:
+        with open("serv_data/azure_region_locations.json", 'r') as fp:
             azure_loc = json.load(fp)
         azure_ip = []
         with open("serv_data/azure_ip_ranges.json", 'r') as fp:
@@ -421,7 +421,7 @@ def query_RIPE(ip):
     for _ in range(3):
         # 3 tries for get request
         try:
-            ripe_url_prefix = "http://openipmap.ripe.net/api/v1/single-radius/"
+            ripe_url_prefix = "http://ipmap.ripe.net/api/v1/locate/"
             request_url = ripe_url_prefix + ip
             print("Requesting IP: %s" % request_url)
             # request for IP geolocation service
