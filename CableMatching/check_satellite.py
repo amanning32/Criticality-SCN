@@ -1,8 +1,6 @@
 
 from pymongo import MongoClient, UpdateOne
-from bson.objectid import ObjectId
-import googlemaps
-import json, sys, math, time, os
+import json, sys
 
 mongo_config = None
 with open("../config.json", 'r') as fp:

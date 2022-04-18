@@ -1,6 +1,5 @@
 
 from pymongo import MongoClient, UpdateOne
-from bson.objectid import ObjectId
 import googlemaps
 import json, sys, math, time, os
 
