@@ -1,10 +1,7 @@
 import sys
 import json
-import random
-import argparse
 import time
 from pymongo import MongoClient
-from bson import ObjectId
 from datetime import (
     datetime, 
     timedelta
