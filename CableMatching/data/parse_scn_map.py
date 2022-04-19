@@ -22,7 +22,7 @@ country_code_accent_map = {
     b'Saint Barth\xc3\x83\xc2\xa9lemy': "BL"
 }
 
-def find_country_code(country: str):
+def find_country_code(country: str) -> str:
     if country.encode('utf-8') in country_code_accent_map:
         return country_code_accent_map[country.encode('utf-8')]
 
@@ -35,14 +35,14 @@ def find_country_code(country: str):
     print(f"No country code found for {country} with length {len(country)}", flush=True)
     return None
 
-def create_scn_map_json():
+def create_scn_map_json() -> None:
     ### As of April 18th, 2022, this does not work for the following cables:
     # bt-mt-1.json: Groudle Bay, Isle of Man not on Bing
     # eastern-caribbean-fiber-system-ecfs.json: Saint Maarten, Sint Maarten not on Bing
     # havhingstenceltixconnect-2-cc-2.json: Port Grenaugh, Isle of Man not on Bing
     # lanis-1.json: Port Grenaugh, Isle of Man not on Bing
     # saba-statia-cable-system-sscs.json: Great Bay Beach, Sint Maarten not on Bing
-    
+
     scn_map_json = []
 
     for filename in tqdm(os.listdir(path_to_scn), desc="Cable JSON files"):
@@ -108,6 +108,85 @@ def create_scn_map_json():
     with open('submarine_cable_map_NEW.json', 'w') as f:
         json.dump(scn_map_json, f, indent=4)
 
-create_scn_map_json()
+def get_new_cables(old_map: str, new_map: str) -> None:
+    old_json = None
+    new_json = None
 
-# TODO: create country_cable and country_hop_cable functions
+    with open(old_map, 'r') as f:
+        old_json = json.load(f)
+
+    with open(new_map, 'r') as f:
+        new_json = json.load(f)
+
+    old_cables = set()
+    new_cables = set()
+
+    for element in old_json:
+        old_cables.add(element['name'])
+    for element in new_json:
+        if element['name'] in old_cables:
+            old_cables.remove(element['name'])
+        else:
+            new_cables.add(element['name'])
+    
+    print(f"There are {len(old_cables)} old cables not included (incl. name differences & retired cables):")
+    print(sorted(old_cables))
+    print(f"There are {len(new_cables)} new cables (incl. name differences):")
+    print(sorted(new_cables))
+
+def create_country_cable(scn_map_file: str) -> None:
+    scn_map = None
+    country_cables = {}
+    country_cable_hops = {}
+
+    with open(scn_map_file, 'r') as f:
+        scn_map = json.load(f)
+
+    for cable in tqdm(scn_map, desc="Submarine cables"):
+        previous_landings = []
+        for i in range(len(cable['landings'])):
+            landing = cable['landings'][i]
+
+            # country (or unique substring, i.e. Congos) is always at the end
+            country = landing.split(',')[-1].strip()
+            country_code = find_country_code(country)
+
+            # create country_cable
+            if country_code not in country_cables:
+                country_cables[country_code] = []
+            
+            if cable['name'] not in country_cables[country_code]:
+                country_cables[country_code].append(cable['name'])
+
+            # create country_hop_cable -- all pairs of landings
+            for last_landing in previous_landings:
+                if last_landing != country_code:
+                    # add for one direction
+                    hop = last_landing + '-' + country_code
+
+                    if hop not in country_cable_hops:
+                        country_cable_hops[hop] = []
+                    
+                    country_cable_hops[hop].append(cable)
+
+                    # ...and add for other direction
+                    hop = country_code + '-' + last_landing
+
+                    if hop not in country_cable_hops:
+                        country_cable_hops[hop] = []
+                    
+                    country_cable_hops[hop].append(cable)
+            
+            previous_landings.append(country_code)
+    
+    print(f"There are submarine cable landings in {len(country_cables)} countries")
+    print(f"There are {int(len(country_cable_hops) / 2)} unique country hops via submarine cables")
+
+    with open('country_cable_NEW.json', 'w') as f:
+        json.dump(country_cables, f, indent=4)
+    with open('country_hop_cable_NEW.json', 'w') as f:
+        json.dump(country_cable_hops, f, indent=4)
+
+create_scn_map_json()
+get_new_cables('submarine_cable_map_OLD.json', 'submarine_cable_map.json')
+create_country_cable('submarine_cable_map.json')
